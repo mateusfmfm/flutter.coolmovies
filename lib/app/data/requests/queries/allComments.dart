@@ -1,3 +1,4 @@
+const allComments = """
 query {
   allComments {
     nodes {
@@ -16,4 +17,4 @@ query {
       hasNextPage
     }
   }
-}
+}""";
