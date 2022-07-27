@@ -1,5 +1,5 @@
 import 'package:coolmoviesfinal/app/core/platform/app_context.dart';
-import 'package:coolmoviesfinal/app/core/ui/theme/colors/global_colors.dart';
+import 'package:coolmoviesfinal/app/core/ui/theme/colors/custom_colors.dart';
 import 'package:coolmoviesfinal/app/core/ui/theme/fonts_style/roboto_style.dart';
 import 'package:flutter/cupertino.dart';
 
@@ -9,7 +9,7 @@ class TextSpanRegular extends TextSpan {
   final double fontSize;
 
   const TextSpanRegular(this.content,
-      {this.fontSize = 14, this.color = GlobalColors.textDarkGrey})
+      {this.fontSize = 14, this.color = CustomColors.textDarkGrey})
       : super(text: content);
 
   @override
@@ -23,7 +23,7 @@ class TextSpanMedium extends TextSpan {
   final double fontSize;
 
   const TextSpanMedium(this.content,
-      {this.fontSize = 14, this.color = GlobalColors.textDarkGrey})
+      {this.fontSize = 14, this.color = CustomColors.textDarkGrey})
       : super(text: content);
 
   @override
@@ -37,7 +37,7 @@ class TextSpanBold extends TextSpan {
   final double fontSize;
 
   const TextSpanBold(this.content,
-      {this.fontSize = 14, this.color = GlobalColors.textDarkGrey})
+      {this.fontSize = 14, this.color = CustomColors.textDarkGrey})
       : super(text: content);
 
   @override
